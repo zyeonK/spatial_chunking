@@ -1,7 +1,7 @@
 rng(918)
 
 %% Set directory
-data_dir = '../NC_data';
+data_dir = '../data';
 data_name  = 'group_pattern_data.mat';
 %% Load data
 load(fullfile(data_dir,data_name)) % avg_data, tmap_all
