@@ -1,7 +1,7 @@
 rng(918)
 
 %% Set directory
-data_dir = '../NC_data';
+data_dir = '../data';
 data_name = 'sample_data.mat';
 node_model  = 'multi_node_model_info.mat';
 %% Load data
