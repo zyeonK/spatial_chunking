@@ -1,7 +1,7 @@
 rng(918)
 
 %% Set directory
-data_dir = '../NC_data';
+data_dir = '../data';
 data_name  = 'sample_data.mat';
 map_name  = 'sbj_pattern_all.mat';
 
