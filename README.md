@@ -10,10 +10,16 @@ Download the data and code, and place them in the same directory.
 
 ## Instruction for running the code
 ### Data
-#### node_indiv.mat
-This file contains node sizes and spacing scales for each participant, obtained from the multi-sesssion experiment.
 #### sample_data.mat
 This file includes x, y coordinates of target coins and responses, along with subject ID, session number (1-7), coin order (1-8), and context ID (1-5) from the multi-session behaivoral experiment.
+#### sbj_pattern_all.mat
+This file contains target coin/ response map for each individual participant, obtained from the multi-sesssion experiment.
+#### group_pattern_data.mat
+This file contains average response map and group-level t-map, obtained from the multi-sesssion experiment.
+#### multi_node_model_info.mat
+This file contains node sizes and spacing scales for each participant, obtained from the multi-sesssion experiment.
+#### chunking_info.mat
+This file contains chunking index for each participant along with tags indicating whether the coin or response is on-node or not, obtained from the multi-sesssion experiment.
 #### neural_task_period_info
 This folder contains task period information used for the fMRI session.
 
