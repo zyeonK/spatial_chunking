@@ -1,5 +1,4 @@
-# Spontaneous geometric chunking in human spatial navigation and its association with hippocampal subicular activity
-
+# Spontaneous grid-like chunking in human spatial navigation behavior and its neural correlates in hippocampal subregions
 ## Software Requirements
 ### OS Requirements
 + Windows
