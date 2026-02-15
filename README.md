@@ -20,8 +20,6 @@ This file contains average response map and group-level t-map, obtained from the
 This file contains node sizes and spacing scales for each participant, obtained from the multi-sesssion experiment.
 #### chunking_info.mat
 This file contains chunking index for each participant along with tags indicating whether the coin or response is on-node or not, obtained from the multi-sesssion experiment.
-#### neural_task_period_info
-This folder contains task period information used for the fMRI session.
 
 ---
 ### Code
