@@ -10,15 +10,22 @@ Download the data and code, and place them in the same directory.
 ## Instruction for running the code
 ### Data
 #### sample_data.mat
-This file includes x, y coordinates of target coins and responses, along with subject ID, session number (1-7), coin order (1-8), and context ID (1-5) from the multi-session behaivoral experiment.
+This file includes x, y coordinates of target coin/encoding/response locations, along with subject ID, session number (1-7), coin order (1-8), and context ID (1-5), retrieval speed, and data inclusion (False for failed responses) from the multi-session behaivoral experiment.
 #### sbj_pattern_all.mat
-This file contains target coin/ response map for each individual participant, obtained from the multi-sesssion experiment.
+This file contains target coin/response/difference (response - coin) map for each individual participant, obtained from the multi-sesssion experiment.
 #### group_pattern_data.mat
 This file contains average response map and group-level t-map, obtained from the multi-sesssion experiment.
 #### multi_node_model_info.mat
 This file contains node sizes and spacing scales for each participant, obtained from the multi-sesssion experiment.
 #### chunking_info.mat
 This file contains chunking index for each participant along with tags indicating whether the coin or response is on-node or not, obtained from the multi-sesssion experiment.
+
+---
+### Source data
+#### Source_Data_3T_Fig4_5.xlsx
+This file contains source data for generating Figure 4d and f, Figure 5a 
+#### Source_Data_7T_Fig4_5.xlsx
+This file contains source data for generating Figure 4e and g, Figure 5b
 
 ---
 ### Code
@@ -33,7 +40,7 @@ This file contains chunking index for each participant along with tags indicatin
 #### behavior_code_04_error_vector_map.m
 - Generates error vector maps and produces Figure 2d.
 #### behavior_code_05_multi_node_model.m
-- Tests the best-fitting multi-node model for each participant and generates Figure 2f.
+- Tests the best-fitting multi-node model for each participant and generates Figure 2e.
 #### behavior_code_06_chunking_index_analysis.m
 Computes chunking indices and generates Figure 3d-3f.
 #### behavior_code_07_speed_analysis.m
